@@ -95,12 +95,12 @@ class RTSPstreamer:
 def main():
     rtsp_urls = [
         'rtsp://admin:1234567s@192.168.200.132:554/Streaming/Channels/101',
-        'rtsp://admin:password@192.168.200.132:554/Streaming/Channels/201',
-        'rtsp://admin:password@192.168.200.132:554/Streaming/Channels/301',
-        'rtsp://admin:password@192.168.200.132:554/Streaming/Channels/401',
-        'rtsp://admin:password@192.168.200.132:554/Streaming/Channels/501',
-        'rtsp://admin:password@192.168.200.132:554/Streaming/Channels/601',
-        'rtsp://admin:password@192.168.200.132:554/Streaming/Channels/701'
+        'rtsp://admin:1234567s@192.168.200.132:554/Streaming/Channels/201',
+        'rtsp://admin:1234567s@192.168.200.132:554/Streaming/Channels/301',
+        'rtsp://admin:1234567s@192.168.200.132:554/Streaming/Channels/401',
+        'rtsp://admin:1234567s@192.168.200.132:554/Streaming/Channels/501',
+        'rtsp://admin:1234567s@192.168.200.132:554/Streaming/Channels/601',
+        'rtsp://admin:1234567s@192.168.200.132:554/Streaming/Channels/701'
     ]
 
     streamers = []
